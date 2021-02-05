@@ -1,0 +1,52 @@
+.contactList {
+  list-style: none;
+  padding: 0px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: rgb(248, 246, 244);
+}
+
+.contactItem:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.contactItem:before {
+  content: ' ';
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background: url(https://www.flaticon.com/premium-icon/icons/svg/656/656818.svg)
+    no-repeat;
+  background-size: contain;
+}
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+  margin: 10px 25px;
+}
+
+.deleteContactButton {
+  margin-left: 10px;
+  border: none;
+  padding: 8px 11px;
+  background-color: rgb(241, 101, 7);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+  border-radius: 5px;
+}

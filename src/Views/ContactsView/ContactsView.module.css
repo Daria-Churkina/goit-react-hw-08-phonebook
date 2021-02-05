@@ -1,0 +1,23 @@
+.title {
+  display: block;
+  font-size: 32px;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.phonebook {
+  max-width: 450px;
+  margin: 0 auto;
+  padding-top: 30px;
+
+  text-align: center;
+}
+
+.contacts {
+  max-width: 450px;
+  margin: 0 auto;
+  padding-top: 30px;
+
+  text-align: center;
+}

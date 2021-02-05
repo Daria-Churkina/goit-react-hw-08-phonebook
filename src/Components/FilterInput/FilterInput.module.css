@@ -1,0 +1,14 @@
+.input {
+  border-radius: 5px;
+  max-width: 416px;
+  padding: 15px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(83, 83, 83);
+}

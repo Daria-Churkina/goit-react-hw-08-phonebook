@@ -1,0 +1,36 @@
+.container {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 500px;
+  font-size: 48px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.game {
+  margin-left: 100px;
+}
+
+h3 {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .avatar,
+  .name {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

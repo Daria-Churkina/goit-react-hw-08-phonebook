@@ -1,0 +1,44 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(83, 83, 83);
+}
+
+input {
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700px;
+  border: 1px solid rgb(83, 83, 83);
+}
+
+input:focus:valid {
+  border-color: green;
+  color: green;
+  box-shadow: none;
+}
+
+input:focus:invalid {
+  border-color: red;
+  color: red;
+  box-shadow: none;
+}
+
+.addContact {
+  border: none;
+  padding: 8px 11px;
+  background-color: rgb(85, 231, 158);
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+  letter-spacing: 0.1em;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+  border-radius: 5px;
+}

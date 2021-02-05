@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.welcome {
+  font-weight: bold;
+  margin-right: 12px;
+  font-size: 22px;
+}
+
+.logoutbutton {
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(241, 101, 7);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  /* margin-top: 10px; */
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .avatar,
+  .welcome {
+    display: none;
+  }
+}
